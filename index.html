@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
@@ -197,71 +197,83 @@
                 <div class="project-box">
                     <i class="uil uil-briefcase-alt"></i>
                     <h3>Completed</h3>
-                    <label>15+ Finished Projects</label>
+                    <label>25+ Finished Projects</label>
                 </div>
                 <div class="project-box">
                     <i class="uil uil-users-alt"></i>
                     <h3>Clients</h3>
-                    <label>5+ Happy Clients</label>
+                    <label>15+ Happy Clients</label>
                 </div>
                 <div class="project-box">
                     <i class="uil uil-award"></i>
                     <h3>Experience</h3>
-                    <label>2+ Years in the field</label>
+                    <label>3+ Years in the field</label>
                 </div>
             </div>
         </section>
         <section class="education" id="education">
-            <h1 class="heading">My Education </h1>
-            <span>My way to education and first order</span>
-            <div class="timeline">
-                <div class="container right">
-                    <div class="content">
-                        <div class="tag">
-                            <h3>School Years: 2012 - 2023</h3>
-                        </div>
-                        <div class="desc">
-                            <p> This period marks the journey of academic exploration and personal growth during the
-                                school years. </p>
-                        </div>
-                    </div>
+    <h1 class="heading">My Education </h1>
+    <span>My way to education and first order</span>
+    <div class="timeline">
+        <div class="container right">
+            <div class="circle-icon">
+                <i class="uil uil-graduation-cap"></i>
+            </div>
+            <div class="content">
+                <div class="tag">
+                    <h3>School Years: 2012 - 2023</h3>
                 </div>
-                <div class="container left">
-                    <div class="content">
-                        <div class="tag">
-                            <h3>University Tenure: 2023 - 2027</h3>
-                        </div>
-                        <div class="desc">
-                            <p> This phase signifies the pursuit of higher education and the acquisition of specialized
-                                knowledge at the university. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <div class="tag">
-                            <h3>1st Order </h3>
-                        </div>
-                        <div class="desc">
-                            <p> This represents the initial phase or start of a new project which is often accompanied
-                                by first earnings. (2023 December - 2024 July) </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container left">
-                    <div class="content">
-                        <div class="tag">
-                            <h3>2st Order</h3>
-                        </div>
-                        <div class="desc">
-                            <p> This denotes the subsequent phase or continuation of an ongoing process including
-                                strengthening the material and striving for improvement. (2023 February - 2024
-                                July) </p>
-                        </div>
-                    </div>
+                <div class="desc">
+                    <p> This period marks the journey of academic exploration and personal growth during the
+                        school years. </p>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="container left">
+            <div class="circle-icon">
+                <i class="uil uil-university"></i>
+            </div>
+            <div class="content">
+                <div class="tag">
+                    <h3>University Tenure: 2023 - 2027</h3>
+                </div>
+                <div class="desc">
+                    <p> This phase signifies the pursuit of higher education and the acquisition of specialized
+                        knowledge at the university. </p>
+                </div>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="circle-icon">
+                <i class="uil uil-file-check-alt"></i>
+            </div>
+            <div class="content">
+                <div class="tag">
+                    <h3>1st Order</h3>
+                </div>
+                <div class="desc">
+                    <p> This represents the initial phase or start of a new project which is often accompanied
+                        by first earnings. (2023 December - 2024 July) </p>
+                </div>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="circle-icon">
+                <i class="uil uil-award"></i>
+            </div>
+            <div class="content">
+                <div class="tag">
+                    <h3>2st Order</h3>
+                </div>
+                <div class="desc">
+                    <p> This denotes the subsequent phase or continuation of an ongoing process including
+                        strengthening the material and striving for improvement. (2023 February - 2024
+                        July) </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <section class="section" id="contact">
             <div class="top-header">
                 <h1>Contact <span class="me"> Me </span></h1>
@@ -277,22 +289,28 @@
                 </div>
                 <div class="col">
                     <div class="form-control">
-                        <div class="form-inputs">
-                            <div class="input-container">
-                                <i class="uil uil-user"></i>
-                                <input type="text" class="input-field" placeholder="Name">
+                        <form id="contact-form">
+                            <div class="form-inputs">
+                                <div class="input-container">
+                                    <i class="uil uil-user"></i>
+                                    <input type="text" class="input-field" id="name" name="name" placeholder="Name"
+                                           required>
+                                </div>
+                                <div class="input-container">
+                                    <i class="uil uil-envelope"></i>
+                                    <input type="email" class="input-field" id="email" name="email" placeholder="Email"
+                                           required>
+                                </div>
                             </div>
-                            <div class="input-container">
-                                <i class="uil uil-envelope"></i>
-                                <input type="text" class="input-field" placeholder="Email">
+                            <div class="text-area">
+                                <textarea id="message" name="message" placeholder="Message" required></textarea>
                             </div>
-                        </div>
-                        <div class="text-area">
-                            <textarea placeholder="Message"></textarea>
-                        </div>
-                        <div class="form-button">
-                            <button class="btn">Send <i class="uil uil-message"></i></button>
-                        </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn" id="submit-btn">Send <i class="uil uil-message"></i>
+                                </button>
+                            </div>
+                            <div id="form-status" class="form-status"></div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -334,8 +352,10 @@
         </div>
     </footer>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
+<script src="assets/js/email.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
